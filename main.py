@@ -7,7 +7,7 @@ def min_copiok(copipi, targit):
 
     for copipi in copipi:
         for i in range(copipi, targit + 1):
-            spisok_minsuma[i] = min(spisok_minsuma[i], spisok_minsuma[i - copipi] + 1)
+            spisok_minsuma[int] = min(spisok_minsuma[int], spisok_minsuma[int - copipi] + 1)
 
     return spisok_minsuma[targit]
 
